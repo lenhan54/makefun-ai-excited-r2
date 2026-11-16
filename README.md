@@ -31,3 +31,18 @@ MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
 
 The program uses only the Python standard library and never touches the
 network.
+
+## Verify the output
+
+The output is the entry image itself, byte for byte. Check it with:
+
+```sh
+sha256sum /output/entry.png
+```
+
+The digest must be
+`233ad77bd3142fc0456df1b304f0536e3b77f41f6ec4c8f8188a78aa36fc03e6`
+(484,691 bytes, 1024x1024 JPEG). The program already refuses to exit
+successfully unless the copy matches the source in size and digest, and it
+checks the source against the same known digest before copying, so a
+mismatched file fails fast instead of producing a bad output.
