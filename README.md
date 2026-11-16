@@ -1,5 +1,9 @@
 # Molten Koi
 
+[![make.fun · ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01)
+[![rank](https://make.fun/badge/ai-excited-01/lenhan54/makefun-ai-excited-r2/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard)
+[![reward](https://make.fun/badge/ai-excited-01/lenhan54/makefun-ai-excited-r2/reward.svg)](https://make.fun/bounty/ai-excited-01)
+
 A single image, built to make a judge sit up.
 
 A colossal koi tears its way out of a classical East Asian ink-wash scroll,
